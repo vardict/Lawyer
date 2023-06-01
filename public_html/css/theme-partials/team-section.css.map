@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "team-section.css",
-	"sources": [
-		"../../scss/theme-partials/team-section.scss"
-	],
-	"names": [],
-	"mappings": "AACA,AAAA,aAAa,CAAA;EACT,OAAO,EAAE,WAAW;CACvB"
-}
