@@ -41,5 +41,16 @@ $dark-service-bg: $dark-blue;
             height: 3*2.5rem;
             overflow: hidden;
         }
+    }     
+}
+
+//Service single style  
+.service-content{
+        padding: 50px 0;
     }
+
+@media(min-width:992px){
+   .service-content{
+        padding: 107px 0;
+    } 
 }

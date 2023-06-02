@@ -9947,6 +9947,16 @@ header .navbar-nav a {
   overflow: hidden;
 }
 
+.service-content {
+  padding: 50px 0;
+}
+
+@media (min-width: 992px) {
+  .service-content {
+    padding: 107px 0;
+  }
+}
+
 .team-section {
   padding: 67px 0 61px;
 }
