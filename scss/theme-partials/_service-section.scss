@@ -1,0 +1,56 @@
+//Home page
+$service-text: $gray-900;
+//Service page
+$dark-service-bg: $dark-blue;
+.service-section{
+    padding: 77px 0 80px;
+    
+    h2{
+        margin-bottom: 4.5rem;
+    }
+    
+    .service-item{
+        margin-bottom: 2.7rem;
+        
+        span{
+            color: $service-text;
+        }
+    }
+    
+    
+    //Service page style
+    
+    //sa ovim smo rekli da se primeni prethodni stili i da ako ima klasu dark-servic section dodeli novi stil
+    &.dark-servic-section{
+        background-color: $dark-service-bg;
+        h2{
+            color: $primary;
+        }
+        
+        .read-more{
+            font-weight: $font-weight-medium;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+        }
+        
+        .service-item-description{
+            font-size: 1.6rem;
+            line-height: 2.5rem;
+            //sa ovim postizemo da je svaki paragraf indenticne visine.
+            //Ogranicili smo visinu na 7.5rem-a sto je visina tri reda recenica i onda smo rekli da se visak sakrije.
+            height: 3*2.5rem;
+            overflow: hidden;
+        }
+    }     
+}
+
+//Service single style  
+.service-content{
+        padding: 50px 0;
+    }
+
+@media(min-width:992px){
+   .service-content{
+        padding: 107px 0;
+    } 
+}
